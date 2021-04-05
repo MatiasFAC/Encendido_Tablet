@@ -7,7 +7,6 @@ Requirements:
 - RTC ZS-042
 -	Arduino
 - PC817C
--	Resistance
 
 Connection diagram:
 - Arduino -> RTC
@@ -16,6 +15,6 @@ Connection diagram:
   * SCL -> SCL
   * SDA -> SDA
 - Arduino -> PC817C
-  * PIN 7 -> resistance -> anode
+  * PIN 7 -> anode
   * GND -> cathode
 - PC817C -> electronic device
